@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Input Mono";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #161116;
+}
+
+.container {
+  display: grid;
+  grid-template-columns:
+    [first] 1fr
+    [line2] 1fr
+    [line3] 1fr
+    [line4] 1fr
+    [line5] 1fr
+    [line6] 1fr
+    [line7] 1fr
+    [line8] 1fr
+    [line9] 1fr
+    [line10] 1fr
+    [line11] 1fr
+    [line12] 1fr
+    [line13] 1fr
+    [end];
+  grid-gap: 20px;
+  grid-auto-rows: minmax(50px, auto);
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: white;
+  background-color: #151215;
+  margin-bottom: 50px;
+}
+
+a {
+  cursor: pointer;
+  color: #c949e6;
+  text-decoration: none;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.img-padding {
+  padding: 20px 0;
+}
+
+header {
+  grid-column: line2 / span 2;
+  grid-row: 1;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  color: #c949e6;
+}
+
+.text-width {
+  grid-column: line2 / 8;
+}
+
+.intro {
+  grid-row: 2;
+  padding-bottom: 20px;
+}
+
+.map {
+  background: white;
+  grid-row: 3;
+  grid-column: line2 / 12;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.map img {
+  width: inherit;
+}
+
+.video-iframe {
+  grid-column: line2 / 8;
+  grid-row: 4;
+  position: relative;
+}
