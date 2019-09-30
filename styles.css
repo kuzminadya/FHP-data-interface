@@ -137,6 +137,11 @@ h3 {
   grid-column: line4/ 13;
 }
 
+.end {
+  grid-row: 5;
+  grid-column: line2/ 13;
+}
+
 div.video {
   width: 100%;
 }
