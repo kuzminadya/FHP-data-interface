@@ -86,7 +86,7 @@ header {
 h1 {
   font-family: "InputMono", "Space Mono", monospace;
   font-weight: 800;
-  font-size: 90px;
+  font-size: 100px;
   line-height: 1.4;
   color: #c949e6;
   padding-bottom: 6rem;
@@ -109,7 +109,7 @@ h3 {
 }
 
 .text-width {
-  grid-column: line4 / 10;
+  grid-column: line4 / 12;
 }
 
 .overview img {
@@ -124,6 +124,11 @@ h3 {
 }
 
 .intro {
+  grid-row: 3;
+  padding-bottom: 20px;
+}
+
+.imgintro {
   grid-row: 3;
   padding-bottom: 20px;
 }
